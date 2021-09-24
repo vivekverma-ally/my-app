@@ -18,6 +18,9 @@ function App() {
   },{
     title: "Blog 1",
     author: "Vivek Verma"
+  },{
+    title: " Crazy Blog 1",
+    author: "Not Vivek Verma"
   }]
 
   const blogCards = blogArray.map((item, pos) =>{
