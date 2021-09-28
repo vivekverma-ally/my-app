@@ -1,7 +1,6 @@
 /* eslint-disable no-labels */
 import React from "react"
 
-import { dumpLOGS } from "./Utils";
  
 // import './BlogCard.css'
 
@@ -21,6 +20,5 @@ const BlogCard = (props) => {
       </div>
     );
 }
-// const onLikeButtonClick = () => this.setState((prevState) => {return {likes: prevState.likes+1}})
 
 export default BlogCard;
